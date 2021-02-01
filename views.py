@@ -8,7 +8,7 @@ import datetime
 
 from flask import Flask, render_template, Markup, request, session, redirect, url_for
 # connecting to the database 
-engine = create_engine('oracle://bns2057a:BSmoi101114*@telline.univ-tlse3.fr:1521/etupre')
+engine = create_engine('oracle://......@telline.univ-tlse3.fr:1521/etupre')
 app = Flask(__name__)
 ################################################
 ## On crée une classe qu'on appelle Tile qui va contenir en x l'abscise de l'image et en y l'ordonnée de l'image, et en face l'adresse de l'image 
